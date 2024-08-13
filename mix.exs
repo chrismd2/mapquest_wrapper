@@ -39,8 +39,8 @@ defmodule MapquestWrapper.MixProject do
 
   defp package() do
     [
-      files: ~w(lib priv .formatter.exs mix.exs README* readme* LICENSE*
-                license* CHANGELOG* changelog* src),
+      name: "mapquest_wrapper",
+      files: ~w(lib .formatter.exs mix.exs README*),
       licenses: ["MIT"],
       links: %{"GitHub" => @source_url}
     ]
