@@ -2,11 +2,12 @@ defmodule MapquestWrapper.MixProject do
   use Mix.Project
 
   @source_url "https://github.com/chrismd2/mapquest_wrapper"
+  @version "0.1.0"
 
   def project do
     [
       app: :mapquest_wrapper,
-      version: System.get_env("PROJECT_VERSION"),
+      version: @version,
       elixir: "~> 1.15",
       start_permanent: Mix.env() == :prod,
       description: description(),
