@@ -6,7 +6,7 @@ defmodule MapquestWrapper.MixProject do
   def project do
     [
       app: :mapquest_wrapper,
-      version: "0.1.0",
+      version: System.get_env("PROJECT_VERSION"),
       elixir: "~> 1.15",
       start_permanent: Mix.env() == :prod,
       description: description(),
@@ -27,6 +27,7 @@ defmodule MapquestWrapper.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:ex_doc, "~> 0.31", only: :dev, runtime: false},
       {:httpoison, "~> 1.8"},
       {:jason, "~> 1.0"},
     ]

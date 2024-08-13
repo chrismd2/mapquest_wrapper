@@ -10,6 +10,7 @@ by adding `mapquest_wrapper` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
+    {:ex_doc, "~> 0.31", only: :dev, runtime: false},
     {:mapquest_wrapper, "~> 0.1.0"}
   ]
 end
