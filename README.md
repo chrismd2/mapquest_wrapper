@@ -15,6 +15,8 @@ def deps do
 end
 ```
 
+must add your map quest key to environment as `MAP_QUEST_KEY`
+
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at <https://hexdocs.pm/mapquest_wrapper>.
