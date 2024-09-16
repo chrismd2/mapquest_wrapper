@@ -1,6 +1,6 @@
 # MapquestWrapper
 
-**TODO: Add description**
+This acts as a wrapper for MapQuest APIs useful for projects that use it.
 
 ## Installation
 
